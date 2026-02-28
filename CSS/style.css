@@ -1,0 +1,145 @@
+@font-face {
+    font-family: 'amoera';
+    src: url('../assets/amoera.ttf') format('truetype');
+}
+
+.navbar-brand {
+    font-family: 'amoera', sans-serif;
+    font-size: 28px;
+}
+
+.navbar{
+    background-color: rgba(226, 114, 91);
+}
+
+.hero {
+    background: url('../assets/coworking.png') center/cover no-repeat;
+    height: 100vh;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+
+/* overlay gelap */
+.hero::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: rgba(0, 0, 0, 0.5);
+}
+
+/* supaya teks di atas overlay */
+.hero-content {
+    position: relative;
+    z-index: 1;
+    max-width: 700px;
+}
+
+.hero h1 {
+    font-family: 'amoera', sans-serif;
+    font-size: 60px;
+    font-weight: bold;
+}
+
+.hero p {
+    font-size: 20px;
+}
+.container h2{
+    font-family: 'amoera', sans-serif;
+    font-size: 60px;
+    font-weight: bold;
+
+}
+
+.form {
+    background: url('../assets/coworking.png') center/cover no-repeat;
+    height: 100vh;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+
+/* overlay gelap */
+.form::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: rgba(0, 0, 0, 0.5);
+}
+
+.card {
+    background-color:rgba(226, 114, 91, 0.496);
+    border: none;
+}
+
+.form h2{
+    color: #ffffff;
+    font-family: 'amoera', sans-serif;
+    font-size: 40px;
+    font-weight: bold;
+}
+
+.form-label{
+     color: #ffffff;
+}
+
+.form2{
+     color: #ffffff;
+}
+
+.landing {
+    background: url('../assets/coworking.png') center/cover no-repeat;
+    height: 100vh;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+
+/* overlay gelap */
+.landing::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: rgba(0, 0, 0, 0.5);
+}
+
+.landing-content {
+    position: relative;
+    z-index: 1;
+    max-width: 700px;
+}
+.landing h3{
+    color:white;
+    font-family: 'amoera', sans-serif;
+    font-size: 30px;
+    font-weight: bold;
+
+}
+
+.btn-jogspace {
+    background-color: rgba(226, 114, 91, 1);
+    color: white;
+    border: none;
+}
+
+.btn-jogspace:hover {
+    background-color: rgba(226, 114, 91, 0.8);
+    color: white;
+}
+
+
