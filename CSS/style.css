@@ -13,10 +13,13 @@
 }
 
 .hero {
-    background-image: url('/jogspace/assets/coworking.png');
-    background-size: cover;
-    background-position: center;
+    background: url('../assets/coworking.png') center/cover no-repeat;
     height: 100vh;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
 }
 
 
